@@ -1,0 +1,15 @@
+{
+  "name": "@xo1otl/pi-codex-fast-mode",
+  "version": "0.1.0",
+  "type": "module",
+  "keywords": ["pi-package"],
+  "scripts": {
+    "test": "bun test"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "pi": {
+    "extensions": ["./index.ts"]
+  }
+}
